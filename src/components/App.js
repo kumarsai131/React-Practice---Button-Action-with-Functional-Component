@@ -6,9 +6,9 @@ function App() {
   return (
     <div>
     {
-        para ? <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : ""}
+        state ? <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : ""}
     }
-    <button id="click" onclick={()=> setState(!para)}> Click </button>
+    <button id="click" onclick={()=> setState(!state)}> Click </button>
     </div>
   );
 }
