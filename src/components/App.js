@@ -4,7 +4,7 @@ import "./../styles/App.css";
 function App() {
   const [state,setState] = useState(false);
   return (
-    <div>
+    <div id="main">
     {
         state ? <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p> : ""}
     }
